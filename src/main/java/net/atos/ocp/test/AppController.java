@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-public class HelloWildFlyController {
+public class AppController {
     private static final String URL = "https://2k9ob97826.execute-api.us-east-2.amazonaws.com/default/TestLamda";
 
     @RequestMapping("hello")
